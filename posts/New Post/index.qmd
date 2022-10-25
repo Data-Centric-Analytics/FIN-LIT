@@ -1,12 +1,11 @@
 ---
-title: "FIN LIT"
+title: "The Science of Money"
 author: "Ngoni Matereke"
 date: "2022-10-17"
 categories: [Investment]
+image: image.jpg
 ---
 
-This is the first post in a Quarto blog. Welcome!
+![]()
 
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+![]()Money has a methodological approach!

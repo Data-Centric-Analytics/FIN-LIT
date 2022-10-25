@@ -1,11 +1,11 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2022-10-17"
-categories: [news]
+title: "Delayed Gratification"
+author: "Tarisai Shumba"
+date: "2022-10-16"
+categories: [Saving, Spending]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Welcome! Lets talk about Money!
 
 ![](thumbnail.jpg)
 
