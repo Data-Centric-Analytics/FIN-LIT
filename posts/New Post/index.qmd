@@ -3,9 +3,9 @@ title: "The Science of Money"
 author: "Ngoni Matereke"
 date: "2022-10-17"
 categories: [Investment]
-image: image.jpg
+image: thumbnail.jpg
 ---
 
 ![]()
 
-![]()Money has a methodological approach!
+![]()Money follows a methodological approach!
