@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EVERYTHING ABOUT MONEY - GROWEALTH</title>
+<title>FINANCIAL &amp; ECONOMIC ANALYSIS - GROWEALTH</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">EVERYTHING ABOUT MONEY</span>
+    <span class="navbar-title">FINANCIAL &amp; ECONOMIC ANALYSIS</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -114,12 +114,9 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="dropdown-header">
- Blog by Ngoni &amp; Tari</li>
+ Blog by Ngoni Matereke</li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://linkedin.com/"><i class="bi bi-linkedin" role="img">
 </i> 
@@ -140,55 +137,77 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">GROWEALTH</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Investment"><span class="quarto-category-count category-cloud-4">Investment</span></div><div class="category" data-category="Saving"><span class="quarto-category-count category-cloud-4">Saving</span></div><div class="category" data-category="Spending"><span class="quarto-category-count category-cloud-4">Spending</span></div><div class="category" data-category="analysis"><span class="quarto-category-count category-cloud-4">analysis</span></div><div class="category" data-category="code"><span class="quarto-category-count category-cloud-4">code</span></div><div class="category" data-category="news"><span class="quarto-category-count category-cloud-4">news</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Investment">Investment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Saving">Saving <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Spending">Spending <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">GROWEALTH</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="columns">
+<div class="column" style="width:50%;">
+
+</div><div class="column" style="width:50%;">
+<iframe id="beehiiv-form" src="https://embeds.beehiiv.com/9232d2a2-6e85-4beb-b8ed-1de94e9e4f01?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 65px; width: 100%;">
+</iframe>
+</div>
+</div>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666216800000" data-listing-file-modified-sort="1666275716331" data-listing-reading-time-sort="0.045">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666216800000" data-listing-file-modified-sort="1666695279645" data-listing-reading-time-sort="0.045">
 <a href="./posts/post-with-code/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Post With Code
+A Better relationship with Money
 </h5>
+<div class="listing-reading-time card-text text-muted">
+0 min
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -203,10 +222,7 @@ analysis
 <div class="card-text listing-description">
 This is a post with executable code.
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Harlow Malloc
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Oct 20, 2022
 </div>
@@ -218,13 +234,13 @@ Oct 20, 2022
 <div class="g-col-1" data-index="1" data-categories="Investment" data-listing-date-sort="1665957600000" data-listing-file-modified-sort="1666289549901" data-listing-reading-time-sort="0.025">
 <a href="./posts/New Post/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/New Post/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Science of Money
 </h5>
+<div class="listing-reading-time card-text text-muted">
+0 min
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Investment'); return false;">
 Investment
@@ -233,10 +249,7 @@ Investment
 <div class="card-text listing-description">
 <img src=".png" class="img-fluid">
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Ngoni Matereke
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Oct 17, 2022
 </div>
@@ -248,13 +261,13 @@ Oct 17, 2022
 <div class="g-col-1" data-index="2" data-categories="Saving,Spending" data-listing-date-sort="1665871200000" data-listing-file-modified-sort="1666289096689" data-listing-reading-time-sort="0.135">
 <a href="./posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/welcome/thumbnail.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Delayed Gratification
 </h5>
+<div class="listing-reading-time card-text text-muted">
+0 min
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Saving'); return false;">
 Saving
@@ -266,10 +279,7 @@ Spending
 <div class="card-text listing-description">
 Welcome! Lets talk about Money!
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tarisai Shumba
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Oct 16, 2022
 </div>

@@ -1,6 +1,6 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "A Better relationship with Money"
+author: "Ngoni Matereke"
 date: "2022-10-20"
 categories: [news, code, analysis]
 image: "image.jpg"

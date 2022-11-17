@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "EVERYTHING ABOUT MONEY"
+  title: "FINANCIAL & ECONOMIC ANALYSIS"
   navbar:
     background: "#FFD700"
     left: 
-      - "Blog by Ngoni & Tari"
+      - "Blog by Ngoni Matereke"
+    navbar-hl: "#000000"
     right:
-      - about.qmd
       - icon: linkedin
         href: https://linkedin.com/
       - icon: instagram
@@ -17,7 +17,7 @@ website:
 format:
   html:
     theme:
-      light: cosmo 
+      light: flatly 
       dark: darkly
     
     css: styles.css
